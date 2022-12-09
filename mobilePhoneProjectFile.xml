@@ -12,6 +12,7 @@
             <ditaval href="ditaval/x2000.ditaval"/>
         </profile>
     </context>
+    <publication id="webhelp" idref="webhelp" transtype="webhelp-responsive"/>
     <deliverable id="x1000InPDF" name="Model x1000 in PDF">
         <context idref="x1000ModelContext"/>
         <output href="./x1000Model-PDF"/>
@@ -31,5 +32,10 @@
         <context idref="x2000ModelContext"/>
         <output href="./x2000Model-WebHelp"/>
         <publication transtype="webhelp-responsive"/>
+    </deliverable>
+    <deliverable id="to_be_deleted-1670599648916" name="to be deleted">
+        <context idref="x1000ModelContext"/>
+        <output href="webhelp-output"/>
+        <publication id="webhelp" idref="webhelp" transtype="webhelp-responsive"/>
     </deliverable>
 </project>
