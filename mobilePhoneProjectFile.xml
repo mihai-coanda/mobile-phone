@@ -33,4 +33,9 @@
         <output href="./x2000Model-WebHelp"/>
         <publication transtype="webhelp-responsive"/>
     </deliverable>
+    <deliverable id="To_Be_Deleted-1670850929148" name="To Be Deleted">
+        <context idref="x2000ModelContext"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp"/>
+    </deliverable>
 </project>
